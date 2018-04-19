@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using Newtonsoft.Json;
-using System.IO;
-using System.Linq;
+﻿using System; 
+using System.Collections.Generic; // used for lists<t> and collections
+using Newtonsoft.Json; // nuget package
+using System.IO; // used for reading and writing files on system
+using System.Linq; // used for syntax improvement
 
 namespace console_json
 {
@@ -22,7 +22,7 @@ namespace console_json
 
             //Console.WriteLine(accounts["Admin"]);
 
-            Console.WriteLine(ChangeUser("Admin", 8888));            
+            Console.WriteLine(ChangeUser("Admin", 7777));            
             Console.WriteLine(BackupUsers(accounts));
 
             //Console.WriteLine(accounts["Admin"]);
